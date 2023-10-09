@@ -1,3 +1,3 @@
-# Colne1-Kokoa Clone
+# Clone1-Kokoa Clone
 
-My first colne study!
+My first clone study!
