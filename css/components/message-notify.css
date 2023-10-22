@@ -1,0 +1,32 @@
+.message-notify {
+    background-color: #FF612A;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.red_point {
+    height: 5px;
+    width: 5px;
+    background-color: #FF612A;
+    border-radius: 50%;
+    animation: point 0.5s linear infinite;
+}
+
+@keyframes point {
+    0% {
+        transform:none;
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform:none;
+    }
+}

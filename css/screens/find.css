@@ -1,0 +1,129 @@
+
+.find-recommended {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding-top: 15px;
+    color:var(--gray);
+}
+
+.find-recommended h6 {
+    font-size: 14px;
+}
+
+.find-recommended__no-friends {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-open_chat-header {
+    color: var(--gray);
+    margin: 14px 0px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-open_title {
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.579);
+}
+
+.open_chat-wbb {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+}
+
+.open_chat-wbb:first-child {
+    padding-bottom: 10px;
+}
+
+.open_chat-wbb-text {
+    padding: 20px 0px;
+}
+
+.open_chat-wbb-text h6 {
+    color: #2F373E;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+
+.hashtags {
+    text-transform: uppercase;
+}
+
+.open_chat-wbb-members {
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-members {
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+.open_chat-wbb-members span {
+    padding: 0px 8px;
+}
+
+.active{
+    color: #FF7BCC;
+}
+
+.open_chat-wbb-members img {
+    height:25px;
+    width:25px;
+    border-radius: 40%;
+}
+
+.open_chat-photo img {
+    height:105px;
+    width:105px;
+    border-radius: 10%;
+}
+
+.open_chat-wbb:last-child {
+    border-top: var(--main-border);
+    padding-top: 18px;
+}
+
+.open_chat-photo {
+    position: relative;
+}
+
+.open_chat_photo-good {
+    height: 20px;
+    width: 50px;
+    background-color: #2f373e41;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: none;
+        color:tomato;
+    }
+    50% {
+        transform: scale(150%);
+        color: tomato;
+    }
+    100% {
+        transform: none;
+        color: tomato;
+    }
+}
+
+.open_chat_photo-good:hover i{
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
+    
+}

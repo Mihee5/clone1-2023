@@ -1,0 +1,7 @@
+:root {
+    --yellow: #fbe100;
+    --beige: #F6F6F6;
+    --gray:rgba(0, 0, 0, 0.3);
+    --horizontal: 20px;
+    --main-border:2px solid var(--beige);
+}

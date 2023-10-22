@@ -1,0 +1,49 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal);
+    margin-bottom: 15px;
+}
+
+.screen-header__column {
+    width: 33%;
+}
+
+.screen-header__title {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.screen-header__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.screen-header__column:last-child span {
+    margin-left: 15px;
+}
+
+.screen-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.screen-header__update {
+    position:absolute;
+    right: -8px;
+    top: -8px;
+}
+
+@keyframes gearspin {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__column .fa-gear:hover {
+    animation: gearspin 1s linear infinite;
+}
