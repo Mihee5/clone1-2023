@@ -6,6 +6,7 @@
     padding: 20px 49px;
     box-sizing: border-box;
     border-top: 2px solid rgba(0, 0, 0, .03);
+    z-index: 1;
 }
 
 
