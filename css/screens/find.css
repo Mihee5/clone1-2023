@@ -1,3 +1,12 @@
+.find-screen .status-bar {
+    z-index: 1;
+}
+
+.find-screen .nav {
+    z-index: 1;
+}
+
+
 
 .find-recommended {
     border-top: var(--main-border);
